@@ -110,6 +110,20 @@ public:
         return isPossible;
     }
 
+    int powerSet() {
+        int minRed, minGreen, minBlue;
+        minRed = minGreen = minBlue = 0;
+
+        int total = 0;
+        for(auto draw: draws) {
+            minRed = max(minRed, draw.red);
+            minGreen = max(minGreen, draw.green);
+            minBlue = max(minBlue, draw.blue);
+        }
+        int power = minRed * minGreen * minBlue;
+        return power;
+    }
+
 };
 
 int day2_solution1() {
@@ -136,7 +150,29 @@ int day2_solution1() {
     return sum;
 }
 
+int day2_solution2() {
+    std::string content = readFile("./inputs/day2.txt");
+
+    std::istringstream stringStream(content);
+    std::string line;
+
+    std::vector<Game> games;
+
+
+    while (std::getline(stringStream, line)) {
+        games.push_back(Game(line));
+    }
+
+    int sum = 0;
+    for (auto game: games) {
+        sum += game.powerSet();
+    }
+
+    return sum;
+}
+
 int main(int argc, const char * argv[]) {
-    std::cout<< day2_solution1() << endl ;
+//    std::cout<< day2_solution1() << endl ;
+    std::cout<< day2_solution2() << endl ;
     return 0;
 }
