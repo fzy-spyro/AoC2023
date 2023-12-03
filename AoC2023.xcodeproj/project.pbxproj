@@ -31,6 +31,7 @@
 		46A570502B19E3B6008A35C3 /* day2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = day2.cpp; sourceTree = "<group>"; };
 		46A570522B19E422008A35C3 /* file_reader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = file_reader.cpp; sourceTree = "<group>"; };
 		46A570532B19E422008A35C3 /* file_reader.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = file_reader.hpp; sourceTree = "<group>"; };
+		46A570552B19FA31008A35C3 /* day1_2.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = day1_2.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				46A5704D2B19E0D1008A35C3 /* day1_1.txt */,
+				46A570552B19FA31008A35C3 /* day1_2.txt */,
 			);
 			path = inputs;
 			sourceTree = "<group>";
