@@ -139,7 +139,7 @@ int solution2() {
 }
 
 
-int main(int argc, const char * argv[]) {
+int main1(int argc, const char * argv[]) {
 
     //    std::cout << solution1() << std::endl;
     std::cout << solution2() << std::endl;
