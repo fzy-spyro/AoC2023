@@ -13,3 +13,4 @@ std::string readFile(std::string filePath) {
 
     return fileContent;
 }
+

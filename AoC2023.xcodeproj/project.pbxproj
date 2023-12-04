@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		464931BE2B1DAFCD00E86091 /* day3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 464931BD2B1DAFCD00E86091 /* day3.cpp */; };
+		464931C12B1DB00700E86091 /* string_utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 464931BF2B1DB00700E86091 /* string_utils.cpp */; };
 		4688EDD82B19DDC00003C6B2 /* day1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4688EDD72B19DDC00003C6B2 /* day1.cpp */; };
 		46A570512B19E3B6008A35C3 /* day2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46A570502B19E3B6008A35C3 /* day2.cpp */; };
 		46A570542B19E422008A35C3 /* file_reader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46A570522B19E422008A35C3 /* file_reader.cpp */; };
@@ -25,6 +27,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		464931BD2B1DAFCD00E86091 /* day3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = day3.cpp; sourceTree = "<group>"; };
+		464931BF2B1DB00700E86091 /* string_utils.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = string_utils.cpp; sourceTree = "<group>"; };
+		464931C02B1DB00700E86091 /* string_utils.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = string_utils.hpp; sourceTree = "<group>"; };
+		464931C22B1DB09B00E86091 /* day3_test.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = day3_test.txt; sourceTree = "<group>"; };
+		464931C32B1DB8A600E86091 /* day3.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = day3.txt; sourceTree = "<group>"; };
 		4688EDD42B19DDC00003C6B2 /* AoC2023 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AoC2023; sourceTree = BUILT_PRODUCTS_DIR; };
 		4688EDD72B19DDC00003C6B2 /* day1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = day1.cpp; sourceTree = "<group>"; };
 		46A5704D2B19E0D1008A35C3 /* day1_1.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = day1_1.txt; sourceTree = "<group>"; };
@@ -77,6 +84,8 @@
 				46A5704D2B19E0D1008A35C3 /* day1_1.txt */,
 				46E685D62B1CA18D00FAE221 /* day2_test.txt */,
 				46E685D72B1CAAFD00FAE221 /* day2.txt */,
+				464931C22B1DB09B00E86091 /* day3_test.txt */,
+				464931C32B1DB8A600E86091 /* day3.txt */,
 			);
 			path = inputs;
 			sourceTree = "<group>";
@@ -88,6 +97,9 @@
 				46A570502B19E3B6008A35C3 /* day2.cpp */,
 				46A570522B19E422008A35C3 /* file_reader.cpp */,
 				46A570532B19E422008A35C3 /* file_reader.hpp */,
+				464931BD2B1DAFCD00E86091 /* day3.cpp */,
+				464931BF2B1DB00700E86091 /* string_utils.cpp */,
+				464931C02B1DB00700E86091 /* string_utils.hpp */,
 			);
 			path = solutions;
 			sourceTree = "<group>";
@@ -151,6 +163,8 @@
 			files = (
 				4688EDD82B19DDC00003C6B2 /* day1.cpp in Sources */,
 				46A570542B19E422008A35C3 /* file_reader.cpp in Sources */,
+				464931C12B1DB00700E86091 /* string_utils.cpp in Sources */,
+				464931BE2B1DAFCD00E86091 /* day3.cpp in Sources */,
 				46A570512B19E3B6008A35C3 /* day2.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

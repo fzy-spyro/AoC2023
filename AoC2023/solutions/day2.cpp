@@ -9,41 +9,9 @@
 #include <string>
 #include <map>
 #include "file_reader.hpp"
+#include "string_utils.hpp"
 
 using namespace std;
-
-vector<string> split(const string& str, const string& delim)
-{
-    vector<string> tokens;
-    size_t prev = 0, pos = 0;
-    do
-    {
-        pos = str.find(delim, prev);
-        if (pos == string::npos) pos = str.length();
-        string token = str.substr(prev, pos-prev);
-        if (!token.empty()) tokens.push_back(token);
-        prev = pos + delim.length();
-    }
-    while (pos < str.length() && prev < str.length());
-    return tokens;
-}
-
-// Function to trim leading and trailing whitespaces from a string
-std::string trimString(const std::string& str) {
-    // Find the first non-whitespace character from the beginning
-    size_t start = str.find_first_not_of(" \t\n\r");
-
-    // If the string is all whitespaces, return an empty string
-    if (start == std::string::npos) {
-        return "";
-    }
-
-    // Find the last non-whitespace character from the end
-    size_t end = str.find_last_not_of(" \t\n\r");
-
-    // Extract the trimmed substring
-    return str.substr(start, end - start + 1);
-}
 
 class Draw {
 public:
@@ -171,7 +139,7 @@ int day2_solution2() {
     return sum;
 }
 
-int main(int argc, const char * argv[]) {
+int main2(int argc, const char * argv[]) {
 //    std::cout<< day2_solution1() << endl ;
     std::cout<< day2_solution2() << endl ;
     return 0;
