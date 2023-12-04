@@ -94,7 +94,7 @@ int day4_solution1() {
 }
 
 int day4_solution2() {
-    std::string content = readFile("./inputs/day4.txt");
+    std::string content = readFile("./inputs/day4_test.txt");
 
     std::istringstream stringStream(content);
     std::string line;
@@ -127,7 +127,7 @@ int day4_solution2() {
 }
 
 
-int main(int argc, const char * argv[]) {
+int main4(int argc, const char * argv[]) {
 //    std::cout<< day4_solution1() << endl ;
         std::cout<< day4_solution2() << endl ;
     return 0;
