@@ -275,7 +275,7 @@ int day3_solution2() {
 }
 
 
-int main(int argc, const char * argv[]) {
+int main3(int argc, const char * argv[]) {
 //    std::cout<< day3_solution1() << endl ;
     std::cout<< day3_solution2() << endl ; // too low ???
     return 0;
