@@ -208,7 +208,7 @@ long day5_solution2() {
 }
 
 
-int main(int argc, const char * argv[]) {
+int main5(int argc, const char * argv[]) {
 //    std::cout<< day5_solution1() << endl ;
         std::cout<< day5_solution2() << endl ;
     return 0;

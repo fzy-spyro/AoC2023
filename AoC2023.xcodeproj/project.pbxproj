@@ -14,6 +14,8 @@
 		4688EDD82B19DDC00003C6B2 /* day1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4688EDD72B19DDC00003C6B2 /* day1.cpp */; };
 		46A570512B19E3B6008A35C3 /* day2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46A570502B19E3B6008A35C3 /* day2.cpp */; };
 		46A570542B19E422008A35C3 /* file_reader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46A570522B19E422008A35C3 /* file_reader.cpp */; };
+		46AD19BB2B2205150076792D /* day6.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46AD19BA2B2205150076792D /* day6.cpp */; };
+		46AD19BD2B220DFE0076792D /* day7.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46AD19BC2B220DFE0076792D /* day7.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -46,6 +48,12 @@
 		46A570502B19E3B6008A35C3 /* day2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = day2.cpp; sourceTree = "<group>"; };
 		46A570522B19E422008A35C3 /* file_reader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = file_reader.cpp; sourceTree = "<group>"; };
 		46A570532B19E422008A35C3 /* file_reader.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = file_reader.hpp; sourceTree = "<group>"; };
+		46AD19B82B2204F70076792D /* day6_test.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = day6_test.txt; sourceTree = "<group>"; };
+		46AD19B92B2205020076792D /* day6.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = day6.txt; sourceTree = "<group>"; };
+		46AD19BA2B2205150076792D /* day6.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = day6.cpp; sourceTree = "<group>"; };
+		46AD19BC2B220DFE0076792D /* day7.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = day7.cpp; sourceTree = "<group>"; };
+		46AD19BE2B220E260076792D /* day7_test.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = day7_test.txt; sourceTree = "<group>"; };
+		46AD19BF2B220E260076792D /* day7.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = day7.txt; sourceTree = "<group>"; };
 		46E685D62B1CA18D00FAE221 /* day2_test.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = day2_test.txt; sourceTree = "<group>"; };
 		46E685D72B1CAAFD00FAE221 /* day2.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = day2.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -89,6 +97,8 @@
 		46A5704B2B19E0A9008A35C3 /* inputs */ = {
 			isa = PBXGroup;
 			children = (
+				46AD19BE2B220E260076792D /* day7_test.txt */,
+				46AD19BF2B220E260076792D /* day7.txt */,
 				46A5704D2B19E0D1008A35C3 /* day1_1.txt */,
 				46E685D62B1CA18D00FAE221 /* day2_test.txt */,
 				46E685D72B1CAAFD00FAE221 /* day2.txt */,
@@ -98,6 +108,8 @@
 				4622B5902B1DCD16006CA138 /* day4.txt */,
 				4665F8C62B1F1ED2002DF89B /* day5_test.txt */,
 				4665F8CA2B1F34F0002DF89B /* day5.txt */,
+				46AD19B82B2204F70076792D /* day6_test.txt */,
+				46AD19B92B2205020076792D /* day6.txt */,
 			);
 			path = inputs;
 			sourceTree = "<group>";
@@ -105,15 +117,17 @@
 		46A5704E2B19E250008A35C3 /* solutions */ = {
 			isa = PBXGroup;
 			children = (
+				46A570532B19E422008A35C3 /* file_reader.hpp */,
+				46A570522B19E422008A35C3 /* file_reader.cpp */,
+				464931BF2B1DB00700E86091 /* string_utils.cpp */,
+				464931C02B1DB00700E86091 /* string_utils.hpp */,
 				4688EDD72B19DDC00003C6B2 /* day1.cpp */,
 				46A570502B19E3B6008A35C3 /* day2.cpp */,
 				464931BD2B1DAFCD00E86091 /* day3.cpp */,
 				4622B58E2B1DC795006CA138 /* day4.cpp */,
 				4665F8C72B1F1F0A002DF89B /* day5.cpp */,
-				46A570532B19E422008A35C3 /* file_reader.hpp */,
-				46A570522B19E422008A35C3 /* file_reader.cpp */,
-				464931BF2B1DB00700E86091 /* string_utils.cpp */,
-				464931C02B1DB00700E86091 /* string_utils.hpp */,
+				46AD19BA2B2205150076792D /* day6.cpp */,
+				46AD19BC2B220DFE0076792D /* day7.cpp */,
 			);
 			path = solutions;
 			sourceTree = "<group>";
@@ -177,9 +191,11 @@
 			files = (
 				4688EDD82B19DDC00003C6B2 /* day1.cpp in Sources */,
 				46A570542B19E422008A35C3 /* file_reader.cpp in Sources */,
+				46AD19BD2B220DFE0076792D /* day7.cpp in Sources */,
 				464931C12B1DB00700E86091 /* string_utils.cpp in Sources */,
 				464931BE2B1DAFCD00E86091 /* day3.cpp in Sources */,
 				46A570512B19E3B6008A35C3 /* day2.cpp in Sources */,
+				46AD19BB2B2205150076792D /* day6.cpp in Sources */,
 				4622B58F2B1DC795006CA138 /* day4.cpp in Sources */,
 				4665F8C92B1F1F0A002DF89B /* day5.cpp in Sources */,
 			);
